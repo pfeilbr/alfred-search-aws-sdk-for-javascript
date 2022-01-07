@@ -7,6 +7,10 @@
 
 ---
 
+<img src="https://www.evernote.com/l/AAFaRIMMNSlF2IXYpKA4_ynFbrNVloyKbjUB/image.png" width="600px" />
+
+---
+
 ## Usage
 
 In Alfred, type `awssdk`, <kbd>Enter</kbd>, and your query.
