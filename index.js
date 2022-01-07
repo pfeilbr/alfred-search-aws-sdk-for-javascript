@@ -3,25 +3,30 @@ import alfy from 'alfy';
 import stringOccurrence from 'string-occurrence';
 import fs from 'fs';
 
-//const cachedData = alfy.cache.get('data')
+let items = alfy.cache.get('items')
+if (!items) {
+	console.log(`cache miss`);
+	const data = JSON.parse(fs.readFileSync('./data.json'));
 
-const data = JSON.parse(fs.readFileSync('./data.json'));
+	items = data.map(api => {
+		const url = `http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/${api.service}.html#${api.name}-property`;
+	
+		return {
+			title: api.name,
+			autocomplete: api.name,
+			subtitle: api.serviceFullName,
+			keywords: api.keywords,
+			arg: url,
+			quicklookurl: url,
+			icon: {
+				path: `./icons/${api.icon}.png`
+			}
+		};
+	});
+	
+	alfy.cache.set('items', items)
+}
 
-const items = data.map(api => {
-	const url = `http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/${api.service}.html#${api.name}-property`;
-
-	return {
-		title: api.name,
-		autocomplete: api.name,
-		subtitle: api.serviceFullName,
-		keywords: api.keywords,
-		arg: url,
-		quicklookurl: url,
-		icon: {
-			path: `./icons/${api.icon}.png`
-		}
-	};
-});
 
 const matcher = (input, items) => {
 	const tokens = input.trim().toLowerCase().split(' ');
