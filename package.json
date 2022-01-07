@@ -1,0 +1,20 @@
+{
+  "name": "user.workflow.230c07a4-5d17-4e05-af94-93544574cee1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-data": "./make.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^0.12.2",
+    "aws-sdk": "^2.1052.0",
+    "pify": "^5.0.0",
+    "string-occurrence": "^1.2.0"
+  }
+}
