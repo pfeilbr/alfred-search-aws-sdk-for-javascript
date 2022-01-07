@@ -64,7 +64,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>searching aws sdk for javascript</string>
 				<key>title</key>
 				<string>awssdk</string>
 				<key>type</key>
