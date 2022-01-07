@@ -23,7 +23,11 @@ Press <kbd>Shift</kbd> to view the documentaion in Quick Look.
 ## To update to latest aws-sdk
 
 ```sh
+# update to latest or specified version `aws-sdk`
 npm install aws-sdk
+
+# update `data.json` from local `aws-sdk` npm package
+# it reads service metadata .json files from `./node_modules/aws-sdk/apis`
 npm run generate-data
 ```
 
