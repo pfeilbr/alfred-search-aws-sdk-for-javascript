@@ -3,23 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.brianpfeil.alfred-search-aws-sdk-for-javascript</string>
+	<string>com.brianpfeil.search-aws-sdk-for-javascript</string>
 	<key>connections</key>
-	<dict>
-		<key>012E093A-17BD-4BC5-9E8E-5B7C3199D713</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>21431E4F-7699-42E4-A1EB-2493C1D9D103</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
@@ -27,7 +13,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>aws javascript sdk</string>
+	<string>search-aws-sdk-for-javascript</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -64,7 +50,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>searching aws sdk for javascript</string>
+				<string></string>
 				<key>title</key>
 				<string>awssdk</string>
 				<key>type</key>
@@ -75,47 +61,21 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>012E093A-17BD-4BC5-9E8E-5B7C3199D713</string>
+			<string>92541891-2AF8-4E48-9751-7B03134CB911</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>21431E4F-7699-42E4-A1EB-2493C1D9D103</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>012E093A-17BD-4BC5-9E8E-5B7C3199D713</key>
+		<key>92541891-2AF8-4E48-9751-7B03134CB911</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>185</integer>
 			<key>ypos</key>
-			<integer>110</integer>
-		</dict>
-		<key>21431E4F-7699-42E4-A1EB-2493C1D9D103</key>
-		<dict>
-			<key>xpos</key>
-			<integer>645</integer>
-			<key>ypos</key>
-			<integer>300</integer>
+			<integer>245</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

@@ -11,6 +11,18 @@
 
 ---
 
+## Install
+
+* follow [alfy#usage instructions](https://github.com/sindresorhus/alfy#usage)
+* symlink workflow directory to here
+  ```
+  # example
+  cd /Users/pfeilbr/Dropbox/Alfred/Alfred.alfredpreferences/workflows
+  ln -s ~/projects/alfred-search-aws-sdk-for-javascript user.workflow.3AFB139F-7BE0-4430-9EE4-36FCD4B2376D
+  ```
+
+---
+
 ## Usage
 
 In Alfred, type `awssdk`, <kbd>Enter</kbd>, and your query.
