@@ -21,9 +21,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Brian Pfeil</string>
 	<key>description</key>
-	<string></string>
+	<string>search aws sdk for javascript</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -119,6 +119,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://brianpfeil.com</string>
 </dict>
 </plist>

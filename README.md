@@ -13,20 +13,26 @@
 
 ## Install
 
-* follow [alfy#usage instructions](https://github.com/sindresorhus/alfy#usage)
-* symlink workflow directory to here
-  ```
-  # example
-  cd /Users/pfeilbr/Dropbox/Alfred/Alfred.alfredpreferences/workflows
-  ln -s ~/projects/alfred-search-aws-sdk-for-javascript user.workflow.3AFB139F-7BE0-4430-9EE4-36FCD4B2376D
-  ```
+```sh
+git clone https://github.com/pfeilbr/alfred-search-aws-sdk-for-javascript.git`
+cd alfred-search-aws-sdk-for-javascript
+npm install
+
+# follow [alfy#usage instructions](https://github.com/sindresorhus/alfy#usage)
+
+# symlink workflow directory to here
+# example
+cd /Users/pfeilbr/Dropbox/Alfred/Alfred.alfredpreferences/workflows
+ln -s ~/projects/alfred-search-aws-sdk-for-javascript user.workflow.3AFB139F-7BE0-4430-9EE4-36FCD4B2376D
+```
+
+**Screenshots of Config in Alfred Workflow View**
 
 ![](https://www.evernote.com/l/AAFAU04pElBHZqUqk1SITrouQx3no0X8FRAB/image.png)
 
 ![](https://www.evernote.com/l/AAF3RKegmTJHsIjwIH7TYPbwMfhU9k1vFAkB/image.png)
 
 ![](https://www.evernote.com/l/AAHWchAAHcNM6oiNpaUU27cpXWG4Nkmc3FUB/image.png)
-
 
 
 ---
