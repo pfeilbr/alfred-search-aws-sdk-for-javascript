@@ -5,7 +5,21 @@
 	<key>bundleid</key>
 	<string>com.brianpfeil.search-aws-sdk-for-javascript</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>92541891-2AF8-4E48-9751-7B03134CB911</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>399D38A6-A16E-40BE-9B25-E78ADEC0D0FB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
@@ -65,17 +79,43 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>399D38A6-A16E-40BE-9B25-E78ADEC0D0FB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>399D38A6-A16E-40BE-9B25-E78ADEC0D0FB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>305</integer>
+			<key>ypos</key>
+			<integer>135</integer>
+		</dict>
 		<key>92541891-2AF8-4E48-9751-7B03134CB911</key>
 		<dict>
 			<key>xpos</key>
-			<integer>185</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>130</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

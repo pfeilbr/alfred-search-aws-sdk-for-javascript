@@ -21,6 +21,14 @@
   ln -s ~/projects/alfred-search-aws-sdk-for-javascript user.workflow.3AFB139F-7BE0-4430-9EE4-36FCD4B2376D
   ```
 
+![](https://www.evernote.com/l/AAFAU04pElBHZqUqk1SITrouQx3no0X8FRAB/image.png)
+
+![](https://www.evernote.com/l/AAF3RKegmTJHsIjwIH7TYPbwMfhU9k1vFAkB/image.png)
+
+![](https://www.evernote.com/l/AAHWchAAHcNM6oiNpaUU27cpXWG4Nkmc3FUB/image.png)
+
+
+
 ---
 
 ## Usage
