@@ -21,16 +21,18 @@ const items = data.map((api) => {
   };
 });
 
-const matcher = (input, items) => {
-  const tokens = input.trim().toLowerCase().split(" ");
+// const matcher = (input, items) => {
+//   const tokens = input.trim().toLowerCase().split(" ");
 
-  const result = items.filter((item) => {
-    item.count = stringOccurrence(item.keywords, tokens);
+//   const result = items.filter((item) => {
+//     item.count = stringOccurrence(item.keywords, tokens);
 
-    return item.count > 0;
-  });
+//     return item.count > 0;
+//   });
 
-  return result.sort((a, b) => b.count - a.count);
-};
+//   return result.sort((a, b) => b.count - a.count);
+// };
 
-alfy.output(matcher(alfy.input, items));
+//alfy.output(matcher(alfy.input, items));
+// send all items, "Alfred Filter Results" is enabled for the script filter
+alfy.output(items);

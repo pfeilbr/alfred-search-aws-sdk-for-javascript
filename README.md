@@ -19,12 +19,15 @@ cd alfred-search-aws-sdk-for-javascript
 npm install
 
 # follow [alfy#usage instructions](https://github.com/sindresorhus/alfy#usage)
+# enable "Alfred filters results" checkbox
 
 # symlink workflow directory to here
 # example
 cd /Users/pfeilbr/Dropbox/Alfred/Alfred.alfredpreferences/workflows
 ln -s ~/projects/alfred-search-aws-sdk-for-javascript user.workflow.3AFB139F-7BE0-4430-9EE4-36FCD4B2376D
 ```
+
+![](https://www.evernote.com/l/AAF0Rp6zliFL1qMl7WqPd7O7MNaHnaqUr1YB/image.png)
 
 **Screenshots of Config in Alfred Workflow View**
 
